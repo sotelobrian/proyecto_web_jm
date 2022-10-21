@@ -88,7 +88,7 @@ a{
 .main{
     background:#e0e0e0;
     width: 100%;
-    height: calc(145vh - 10px);
+    height: calc(150vh - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -588,7 +588,7 @@ font-size: 25px;
 
 .fotos_servicios{
     height: 500px;
-    background-image: url(/multimedia/servicios_jm.png);
+    background-image: url(../multimedia/servicios_jm.png);
     border-radius: 10px;
 }
 
