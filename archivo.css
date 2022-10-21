@@ -88,7 +88,7 @@ a{
 .main{
     background:#e0e0e0;
     width: 100%;
-    height: calc(143vh - 10px);
+    height: calc(145vh - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,7 +235,7 @@ filter: blur(20px);
 
 .imagen_compra_segura{
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 200px;
 }
 
