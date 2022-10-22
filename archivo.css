@@ -235,7 +235,7 @@ filter: blur(20px);
 
 .imagen_compra_segura{
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 200px;
 }
 
@@ -504,7 +504,7 @@ label {
 }
 
 .foto_galeria2{
-    background-image: url(/multimedia/trabajo_auto_ploteado.png);
+    background-image: url(../multimedia/trabajo_auto_ploteado.png);
     background-size: cover;
     height: 350px;
     width: 250px;
@@ -524,7 +524,7 @@ label {
 }
 
 .foto_galeria_pintureria{
-    background-image: url(/multimedia/pintureria_coco1.jpg);
+    background-image: url(./multimedia/pintureria_coco1.jpg);
     background-size: cover;
     height: 350px;
     width: 250px;
