@@ -514,7 +514,7 @@ label {
 }
 
 .foto_galeria3{
-    background-image: url(/multimedia/trabajo_tarjetas.png);
+    background-image: url(../multimedia/trabajo_tarjetas.png);
     background-size: cover;
     height: 350px;
     width: 250px;
@@ -524,7 +524,7 @@ label {
 }
 
 .foto_galeria_pintureria{
-    background-image: url(./multimedia/pintureria_coco1.jpg);
+    background-image: url(../multimedia/pintureria_coco1.jpg);
     background-size: cover;
     height: 350px;
     width: 250px;
@@ -700,7 +700,7 @@ a{
 }
 
 .foto_galeria_pintureria{
-    background-image: url(/multimedia/pintureria_coco1.jpg);
+    background-image: url(../multimedia/pintureria_coco1.jpg);
     background-size: cover;
     background-position:center;
     height: 130px;
@@ -720,7 +720,7 @@ a{
 }
 
 .foto_galeria2{
-    background-image: url(/multimedia/trabajo_auto_ploteado.png);
+    background-image: url(../multimedia/trabajo_auto_ploteado.png);
     background-position: center;
     background-size: cover;
     height: 130px;
@@ -731,7 +731,7 @@ a{
 }
 
 .foto_galeria3{
-    background-image: url(/multimedia/trabajo_tarjetas.png);
+    background-image: url(../multimedia/trabajo_tarjetas.png);
     background-position: center;
     background-size: cover;
     height: 130px;
@@ -941,7 +941,7 @@ a{
 }
 
 .foto_galeria_pintureria{
-    background-image: url(/multimedia/pintureria_coco1.jpg);
+    background-image: url(../multimedia/pintureria_coco1.jpg);
     background-size: cover;
     background-position:center;
     height: 190px;
@@ -961,7 +961,7 @@ a{
 }
 
 .foto_galeria2{
-    background-image: url(/multimedia/trabajo_auto_ploteado.png);
+    background-image: url(../multimedia/trabajo_auto_ploteado.png);
     background-position: center;
     background-size: cover;
     height: 190px;
@@ -972,7 +972,7 @@ a{
 }
 
 .foto_galeria3{
-    background-image: url(/multimedia/trabajo_tarjetas.png);
+    background-image: url(../multimedia/trabajo_tarjetas.png);
     background-position: center;
     background-size: cover;
     height: 190px;
@@ -1184,7 +1184,7 @@ height: 30px;
 }
 
 .foto_galeria_pintureria{
-background-image: url(/multimedia/pintureria_coco1.jpg);
+background-image: url(../multimedia/pintureria_coco1.jpg);
 background-size: cover;
 background-position:center;
 height: 190px;
@@ -1204,7 +1204,7 @@ box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;
 }
 
 .foto_galeria2{
-background-image: url(/multimedia/trabajo_auto_ploteado.png);
+background-image: url(../multimedia/trabajo_auto_ploteado.png);
 background-position: center;
 background-size: cover;
 height: 190px;
@@ -1215,7 +1215,7 @@ box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;
 }
 
 .foto_galeria3{
-background-image: url(/multimedia/trabajo_tarjetas.png);
+background-image: url(../multimedia/trabajo_tarjetas.png);
 background-position: center;
 background-size: cover;
 height: 190px;
@@ -1421,7 +1421,7 @@ height: 30px;
 }
 
 .foto_galeria_pintureria{
-background-image: url(/multimedia/pintureria_coco1.jpg);
+background-image: url(../multimedia/pintureria_coco1.jpg);
 background-size: cover;
 background-position:center;
 height: 250px;
@@ -1441,7 +1441,7 @@ box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;
 }
 
 .foto_galeria2{
-background-image: url(/multimedia/trabajo_auto_ploteado.png);
+background-image: url(../multimedia/trabajo_auto_ploteado.png);
 background-position: center;
 background-size: cover;
 height: 250px;
@@ -1452,7 +1452,7 @@ box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;
 }
 
 .foto_galeria3{
-background-image: url(/multimedia/trabajo_tarjetas.png);
+background-image: url(../multimedia/trabajo_tarjetas.png);
 background-position: center;
 background-size: cover;
 height: 250px;
@@ -1664,7 +1664,7 @@ marquee{
 
 
     .foto_galeria2{
-        background-image: url(/multimedia/trabajo_auto_ploteado.png);
+        background-image: url(../multimedia/trabajo_auto_ploteado.png);
         background-size: cover;
         height: 200px;
         width: 200px;
@@ -1674,7 +1674,7 @@ marquee{
     }
     
     .foto_galeria3{
-        background-image: url(/multimedia/trabajo_tarjetas.png);
+        background-image: url(../multimedia/trabajo_tarjetas.png);
         background-size: cover;
         height: 200px;
         width: 200px;
@@ -1684,7 +1684,7 @@ marquee{
     }
     
     .foto_galeria_pintureria{
-        background-image: url(/multimedia/pintureria_coco1.jpg);
+        background-image: url(../multimedia/pintureria_coco1.jpg);
         background-size: cover;
         height: 200px;
         width: 200px;
