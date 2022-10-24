@@ -524,7 +524,7 @@ label {
 }
 
 .foto_galeria_pintureria{
-    background-image: url(.../multimedia/pintureria_coco1.jpg);
+    background-image: url(multimedia/pintureria_coco1.jpg);
     background-size: cover;
     height: 350px;
     width: 250px;
@@ -799,7 +799,7 @@ a{
 }
 
 .foto_galeria_pintureria{
-    background-image: url(multimedia/pintureria_coco1.jpg);
+    background-image: url(../multimedia/pintureria_coco1.jpg);
     background-size: cover;
     background-position:center;
     height: 130px;
@@ -889,7 +889,8 @@ footer{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: start;
         padding-left: 40px;
-        font-size: 17px;
+        padding-top: 10px;
+        font-size: 16px;
     }
 
     .contenedor_redes_whattsapp{
