@@ -596,7 +596,7 @@ font-size: 25px;
 
 /*--PARA DISPOSITIVOS CON PANTALLAS PEQUEÑAS O CELULARES EN MODO VERTICAL--------------------------------------------------------------*/
 
-@media only screen and (min-width:360px) and (max-width:479px) {
+@media only screen and (min-width:320px) and (max-width:479px) {
 
 /*-------------------------------------- medias queri de mi pagina imagentes------------------------------------------------------*/
 
@@ -678,8 +678,8 @@ a{
 .section {
     background:#e0e0e0;
     margin-top: 15px;
-    width: 90%;
-    height: 97%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -690,11 +690,12 @@ a{
 
 .contenedor_nosotros{
     margin-top: 5px;
+    height: 20px;
 }
 
 
 .contenedor_nosotros span{
-    font-size: 15pt;
+    font-size: 11pt;
     margin-right: 25px;
     font-weight: bold;
     position: relative;
@@ -724,7 +725,8 @@ a{
  }
 
  .articulo_2{  
-    height: 200px;
+    /*height: 200px;*/
+    height: 25%;
     width: 100%;
     display: inline-block;
     /*justify-content: space-around;*/
@@ -797,7 +799,7 @@ a{
 }
 
 .foto_galeria_pintureria{
-    background-image: url(./multimedia/pintureria_coco1.jpg);
+    background-image: url(multimedia/pintureria_coco1.jpg);
     background-size: cover;
     background-position:center;
     height: 130px;
@@ -1637,20 +1639,16 @@ background-size: cover;
 background-position:center;
 }
 
-nav{
-    margin-left: 450px;
-}
-
 .menu{ 
     list-style: none;
     padding: 0;
     background:white;
     height: 30px;
-    width: 20%;
+    width: 70%;
     display: flex;
     justify-content:space-evenly;
     margin-bottom: 5px;
-    margin-right: 20%;
+    margin-right: 0px;
 }
 
 .menu li{
