@@ -669,7 +669,7 @@ a{
 .main{
     background:#e0e0e0;
     width: 100%;
-    height: calc(182vh - 10px);
+    height: calc(240vh - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -745,18 +745,18 @@ a{
 
  .div_articulo_3_video{
     width: 100%;
-    height: 150px;
+    height: 500px;
     background:white;
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 0px;
-    display: flex;
+    display:inline-block;
     justify-content: space-around;
 }
 
 .video_articulo_3{
-    width: 150px;
-    height: 150px;
+    width: 95%;
+    height: 250px;
     margin-left: 5px;
  }
 
@@ -799,7 +799,7 @@ a{
 }
 
 .foto_galeria_pintureria{
-    background-image: url(../multimedia/pintureria_coco1.jpg);
+    background-image: url(./multimedia/pintureria_coco1.jpg);
     background-size: cover;
     background-position:center;
     height: 130px;
@@ -1134,7 +1134,7 @@ a{
 }
 
 .foto_galeria_pintureria{
-    background-image: url(../multimedia/pintureria_coco1.jpg);
+    background-image: url(/multimedia/pintureria_coco1.jpg);
     background-size: cover;
     background-position:center;
     height: 190px;
@@ -1477,7 +1477,7 @@ height: 30px;
 }
 
 .foto_galeria_pintureria{
-background-image: url(../multimedia/pintureria_coco1.jpg);
+background-image: url(multimedia/pintureria_coco1.jpg);
 background-size: cover;
 background-position:center;
 height: 190px;
