@@ -524,7 +524,7 @@ label {
 }
 
 .foto_galeria_pintureria{
-    background-image: url(../multimedia/pintureria_coco1.jpg);
+    background-image: url(.../multimedia/pintureria_coco1.jpg);
     background-size: cover;
     height: 350px;
     width: 250px;
@@ -666,6 +666,103 @@ a{
     float:left;
 }
 
+.main{
+    background:#e0e0e0;
+    width: 100%;
+    height: calc(182vh - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background:#e0e0e0;
+    margin-top: 15px;
+    width: 90%;
+    height: 97%;
+}
+
+
+.contenedor_aside {
+    height: 100%;
+    width: 0%;
+}
+
+.contenedor_nosotros{
+    margin-top: 5px;
+}
+
+
+.contenedor_nosotros span{
+    font-size: 15pt;
+    margin-right: 25px;
+    font-weight: bold;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;          
+}
+
+
+.articulo_1{  /* ¿contenedor de "quienes somos"? */
+    width: 100%;
+    height: 250px;
+    position: relative;
+    font-family: sans-serif;
+    background:#e0e0e0;
+  }
+ 
+  .p_quienes_somos{ /* texto quienes somos */
+     width: 100%;
+     margin-bottom: 0px;
+     margin-left: 5px;
+     font-weight: normal;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(58,63,106);
+     font-size: 12px;
+     text-align: center;
+ }
+
+ .articulo_2{  
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    /*justify-content: space-around;*/
+    background:#e0e0e0;
+    margin-left: 0px;
+}
+
+.imagen_articulo_2{
+    width: 80%;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+
+ }
+
+ .div_articulo_3_video{
+    width: 100%;
+    height: 150px;
+    background:white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video_articulo_3{
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+ }
+
+ .articulo_4{
+    width: 100%;
+    height: 100px;
+}
+
 .seccion_contenedor_galeria{  
     width: 100%;
     height: 610px;
@@ -700,7 +797,7 @@ a{
 }
 
 .foto_galeria_pintureria{
-    background-image: url(../multimedia/pintureria_coco1.jpg);
+    background-image: url(./multimedia/pintureria_coco1.jpg);
     background-size: cover;
     background-position:center;
     height: 130px;
@@ -743,17 +840,17 @@ a{
 
 .seccion_compra_segura{
     width: 100%;
-    height: 120px;
+    height: 100px;
     background-color:#e0e0e0;
     border-radius: 20px;
     margin-top: 5px;
 }
 
 .imagen_compra_segura{
-    width: 97%;
-    height: 70%;
+    width: 98%;
+    height: 85%;
     margin-left: 5px;
-    margin-top: 15px;
+    margin-top: 5px;
     border-radius: 10px;  
 }
 
@@ -868,7 +965,7 @@ nav{
     background-color: white;
     display: flex;
     justify-content:space-between;
-    margin-left: 35%;
+    /*margin-left: 35%;*/
 }
 
 .menu{ 
@@ -877,15 +974,14 @@ nav{
     background:white;
     height: 40px;
     width: 100%;
-    margin-right: 50px;
     display: flex;
+    
 }
 
 .menu li{
     display:inline;
     width: 60px;
-
-    text-align:center; 
+    text-align:center;
 }
 
 .menu li a{
@@ -893,8 +989,7 @@ nav{
     font-weight: bold;
     text-decoration: none;
     color: #FF00ff;
-    padding: 10px 10px 10px 10px;
-        
+    padding: 10px 10px 10px 10px;       
 }
 
 .menu li a:hover{
@@ -908,6 +1003,101 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration:none;
     float:left;
+}
+
+.main{
+    background:#e0e0e0;
+    width: 100%;
+    height: calc(235vh - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background:#e0e0e0;
+    /*margin-top: 35px;*/
+    width: 100%;
+    height: 97%;
+}
+
+.contenedor_aside{
+    width: 0%;
+}
+
+.contenedor_nosotros{
+    margin-top: 5px;
+}
+
+.contenedor_nosotros span{
+    font-size: 20px;
+    margin-right: 25px;
+    font-weight: bold;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;          
+}
+
+.articulo_1{  /* ¿contenedor de "quienes somos"? */
+    width: 100%;
+    height: 220px;
+    position: relative;
+    font-family: sans-serif;
+    background:#e0e0e0;
+  }
+ 
+  .p_quienes_somos{ /* texto quienes somos */
+     width: 97%;
+     margin-bottom: 0px;
+     margin-left: 1px;
+     font-weight: normal;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(58,63,106);
+     font-size: 13px;
+     text-align: center;
+ }
+
+ .articulo_2{  
+    height: 250px;
+    width: 100%;
+    display:inline-block;
+    justify-content: space-around;
+    background:#e0e0e0;
+    margin-left: 0px;
+}
+
+.imagen_articulo_2{
+    height:80%;
+    width: auto;
+    margin-left: 20%;
+    border-radius: 10px;
+ }
+
+ .div_articulo_3_video{
+    width: 100%;
+    height: 420px;
+    background:white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+ .video_articulo_3{
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 10px;
+ }
+
+ .articulo_4{
+    width: 100%;
+    height: 150px;
+    background-color:#e0e0e0;
+    border-radius: 10px;
+
 }
 
 .seccion_contenedor_galeria{  
@@ -991,10 +1181,10 @@ a{
 }
 
 .imagen_compra_segura{
-    width: 95%;
-    height: 90px;
-    margin-left: 15px;
+    width: 100%;
+    height: 100px;
     margin-top: 20px;
+    margin-left: 0px;
     border-radius: 10px;
     
 }
@@ -1149,6 +1339,106 @@ text-align: center;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-decoration:none;
 float:left;
+}
+
+.contenedor_nosotros{ /* no tiene ningun uso por el momento por algo se puso height 0px  */
+    height: 25px;
+    width: 100%;
+    background-color:#e0e0e0;
+    margin-top: 0px;
+    margin-left:5px;
+}
+
+.contenedor_nosotros span{
+    font-size: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;          
+}
+
+
+.articulo_1{  /* ¿contenedor de "quienes somos"? */
+    height: 300px;
+    position: relative;
+    font-family: sans-serif;
+    background:#e0e0e0;
+    margin-bottom: 10px;
+ }
+ 
+  .p_quienes_somos{ /* texto quienes somos */
+     width: 100%;
+     margin-bottom: 5px;
+     margin-left: 1px;
+     font-weight: normal;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(58,63,106);
+     font-size: 18px;
+     text-align: center;
+ }
+
+.main{
+    background:#e0e0e0;
+    width: 100%;
+    height: calc(220vh - 10px);
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background:#e0e0e0;
+    width: 100%;
+    height: 97%;
+    /*margin-bottom: 65px;*/
+}
+
+.contenedor_aside {
+    height: 100%;
+    width: 0%;
+}
+
+.articulo_2{  
+    height: 250px;
+    width: 100%;
+    display:inline-block;
+    justify-content: space-around;
+    background:#e0e0e0;
+    margin-left: 0px;
+}
+
+ .imagen_articulo_2{
+    height:250px;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 10px;
+ }
+
+ .div_articulo_3_video{
+    width: 100%;
+    height: 200px;
+    background:white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    display:inline-block;
+    justify-content: space-around;
+}
+
+ .video_articulo_3{
+    width: 100%;
+    height: 200px;
+    margin-left: 10px;
+ }
+
+ .articulo_4{
+    width: 100%;
+    height: 150px;
+    background-color:#e0e0e0;
+    border-radius: 10px;
 }
 
 .seccion_contenedor_galeria{  
@@ -1323,6 +1613,7 @@ marquee{
 }
 
 }
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width:768px) and (max-width:1023px) { 
 /*-------------------------------------- medias queri de mi pagina imagentes-----------------------------------------------------------*/
@@ -1386,6 +1677,104 @@ text-align: center;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-decoration:none;
 
+}
+
+.contenedor_nosotros{ /* no tiene ningun uso por el momento por algo se puso height 0px  */
+    height: 35px;
+    width: 100%;
+    background-color:#e0e0e0;
+    margin-top: 0px;
+    margin-left:5px;
+}
+
+.contenedor_nosotros span{
+    font-size: 30px;
+    margin-right: 25px;
+    font-weight: bold;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;          
+}
+
+.main{
+    background:#e0e0e0;
+    width: 100%;
+    height: calc(205vh - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background:#e0e0e0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor_aside {
+    height: 100%;
+    width: 0%;
+}
+
+
+.articulo_1{  /* ¿contenedor de "quienes somos"? */
+    height: 350px;
+    position: relative;
+    font-family: sans-serif;
+    background:#e0e0e0;
+ }
+ 
+  .p_quienes_somos{ /* texto quienes somos */
+     width: 100%;
+     margin-bottom: 1%;
+     margin-left: 1px;
+     font-weight: normal;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(58,63,106);
+     font-size: 22px;
+     text-align: center;
+ }
+
+ .articulo_2{  
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    background:#e0e0e0;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+ .imagen_articulo_2{
+    height:220px;
+    width: auto;
+    border-radius: 10px;
+ }
+
+ .div_articulo_3_video{
+    width: 100%;
+    height: 250px;
+    background:white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .video_articulo_3{
+    width: 50%;
+    height: 220px;
+    margin-left: 2px;
+ } 
+
+ .articulo_4{
+    width: 100%;
+    height: 180px;
+    background-color:#e0e0e0;
+    border-radius: 20px;
 }
 
 .seccion_contenedor_galeria{  
@@ -1560,8 +1949,10 @@ marquee{
 }
 
 }
- 
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width:1024px) and (max-width:1200px) { 
+
 
     header{
         height: 100px;
@@ -1623,6 +2014,110 @@ marquee{
         text-decoration:none;
         float:left;
     }
+
+    .contenedor_nosotros{ /* no tiene ningun uso por el momento por algo se puso height 0px  */
+        height: 45px;
+        width: 100%;
+        background-color:#e0e0e0;
+        margin-top: 40px;
+        margin-left:5px;
+    }
+    
+    .contenedor_nosotros span{
+        font-size: 25pt;
+        margin-right: 25px;
+        font-weight: bold;
+        position: relative;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;          
+    }
+
+    .main{
+        background:#e0e0e0;
+        width: 100%;
+        height: calc(180vh - 10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section {
+        background:#e0e0e0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contenedor_aside {
+        height: 100%;
+        width: 0%;
+    }
+
+    .articulo_1{  /* ¿contenedor de "quienes somos"? */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        font-family: sans-serif;
+        background:#e0e0e0;
+     }
+     
+      .p_quienes_somos{ /* texto quienes somos */
+         width: 100%;
+         margin-bottom: 1%;
+         margin-left: 1px;
+         font-weight: normal;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         color: rgb(58,63,106);
+         font-size: 22px;
+         text-align: center;
+     }
+
+     .articulo_2{  
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background:#e0e0e0;
+        margin-left: 0px;
+    }
+    
+     .imagen_articulo_2{
+        height:220px;
+        width: auto;
+        border-radius: 10px;
+     }
+
+     .div_articulo_3_video{
+        width: 100%;
+        height: 300px;
+        background:white;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+     .video_articulo_3{
+        width: 100%;
+        height: 280px;
+        margin-left: 10px;
+     }
+
+     .articulo_4{
+        width: 100%;
+        height: 250px;
+        background-color:#e0e0e0;
+        border-radius: 20px;
+    }
+    
+    /*.imagen_compra_segura{
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 200px;
+    }*/
+
+
 
     .seccion_contenedor_galeria{  
         width: 100%;
