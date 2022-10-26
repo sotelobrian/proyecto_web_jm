@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="archivo.css">
     <link rel="icon" href="multimedia/jm_Logonuevo.png">
     <title>JM Soluciones Graficas</title>
@@ -12,22 +13,23 @@
 <body><!--"<body>" cuerpo (parte visible de la pagina web).-->
         <header>
             <div class="contenedor_imagenes">
-                <!--<img class="portada" src="multimedia/globos_logo2.png" alt="">-->
                 <img class="portada" src="multimedia/globos_logo2.png" alt="">
             </div>
-            <nav >
-                <ul class="menu"> 
+           
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
                     <li><a href="index.html" >Home</a></li>
                     <li><a href="pages/servicios.html">Servicios</a></li>
                     <li><a href="pages/galeria.html">Galeria</a></li>
                     <li><a href="pages/clientes.html">Clientes</a></li>
-                    <li><a href="pages/contactanos.html">Contacto</a></li>       
-                </ul>         
+                    <li><a href="pages/contactanos.html">Contacto</a></li>
+                </ul>
             </nav>
-            <!--<input type"checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa-solid fa-bars"></i>
-            </label>-->
+
         </header>
 
       <div class="contenedor_nosotros" >
@@ -38,7 +40,7 @@
             <span style="--l: 'T';">T </span>
             <span style="--l: 'R';">R </span>
             <span style="--l: 'O';">O </span>
-            <span style="--l: 'S!';">S! </span>
+            <span style="--l: 'S!';">S! </span>              
         </div>
        
         <main class="main">
@@ -48,14 +50,26 @@
                 </article>
 
                 <article class="articulo_2">
-                    <img class="imagen_articulo_2" src="multimedia/cymk_3.png" alt="">
-                    <img class="imagen_articulo_2" src="multimedia/publicidad.png" alt="">
-                    <img class="imagen_articulo_2" src="multimedia/cmyk_2.png" alt="">
+                    <div data-aos="zoom-out-up">
+                        <img class="imagen_articulo_2" src="multimedia/cymk_3.png" alt="">
+                    </div>
+                    <div data-aos="zoom-out-up">
+                        <img class="imagen_articulo_2" src="multimedia/publicidad.png" alt="">
+                    </div>
+                    <div data-aos="zoom-out-up">
+                        <img class="imagen_articulo_2" src="multimedia/cmyk_2.png" alt="">
+                    </div>
                 </article>
 
                 <div class="div_articulo_3_video">
+                    <div data-aos="fade-up"
+                        data-aos-duration="3000">
                         <video class="video_articulo_3" controls muted autoplay src="multimedia/video_imprenta1.mp4"></video>
+                    </div>
+                    <div data-aos="fade-up"
+                        data-aos-duration="3000">
                         <video class="video_articulo_3" controls muted autoplay src="multimedia/video_imprenta2.mp4"></video>
+                    </div>
                 </div>
 
                  <article class="articulo_4">
@@ -96,6 +110,11 @@
             </div>
         <marquee behavior="alternate" direction="right">Todos los derechos reservados por copyright</marquee>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     </body>
 </html>

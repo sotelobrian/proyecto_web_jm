@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../archivo.css">
     <link rel="icon" href="../multimedia/jm_Logonuevo.png">
     <title>JM Soluciones Graficas</title>
@@ -15,104 +16,134 @@
                 <img class="portada" src="../multimedia/globos_logo2.png" alt="">
             </div>
             <nav>
-                <ul class="menu"> 
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
                     <li><a href="../index.html" >Home</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="galeria.html">Galeria</a></li>
                     <li><a href="clientes.html">Clientes</a></li>
                     <li><a href="contactanos.html">Contacto</a></li>       
-                </ul>         
+                </ul>
             </nav>
         </header> 
 
+        <h1>Galeria de imagenes</h1>
          <section class="seccion_contenedor_galeria">
+            <div data-aos="flip-left"> 
                 <div class="foto">
-                    <img class="foto_galeria_pintureria"  alt="">
+                        <img class="foto_galeria_pintureria"  alt="">
                     <div class="pie_foto">
                         <p>"Cartel vidriera"</p> 
                     </div>                    
-                </div>              
+                </div>
+            </div>              
                 
+            <div data-aos="flip-left"> 
                 <div class="foto">
                     <img src="../multimedia/trabajo_ropa.png" class="foto_galeria" alt="">
                     <div class="pie_foto">
                         <p>"Remeras personalizadas"</p>     
                     </div>
                 </div>
+            </div>
 
+            <div data-aos="flip-left">
                 <div class="foto">
                     <img src="../multimedia/trabajo_cuaderno.jpg" class="foto_galeria" alt="">
                     <div class="pie_foto">
                         <p>"Agenda/Cuadernos personalizados"</p>     
                     </div>
                 </div>
-                
+            </div>
+
+            <div data-aos="flip-left">               
                 <div class="foto">
                     <img src="../multimedia/trabajo_esmerilado.png" class="foto_galeria" alt="">
                     <div class="pie_foto">
                         <p>"Vidrio ploteado(esmerilado)"</p>     
                     </div>
                 </div>
+            </div>
            
         </section>
 
         <section class="seccion_contenedor_galeria">
-            <div class="foto">
-                <img  class="foto_galeria2" alt="">
-                <div class="pie_foto">
-                    <p>"Auto ploteado"</p>     
-                </div>
 
-            </div>
-            
-            <div class="foto">
-                <img src="../multimedia/trabajo_auto_ploteado2.png" class="foto_galeria" alt="">
-                <div class="pie_foto">
-                    <p>"Auto ploteado"</p>     
+            <div data-aos="flip-left">               
+                <div class="foto">
+                    <img  class="foto_galeria2" alt="">
+                    <div class="pie_foto">
+                        <p>"Auto ploteado"</p>     
+                    </div>
                 </div>
             </div>
 
-            <div class="foto">
-                <img class="foto_galeria3" alt="">
-                <div class="pie_foto">
-                    <p>"Tarjetas personalizadas"</p>     
+            <div data-aos="flip-left">                          
+                <div class="foto">
+                    <img src="../multimedia/trabajo_auto_ploteado2.png" class="foto_galeria" alt="">
+                    <div class="pie_foto">
+                        <p>"Auto ploteado"</p>     
+                    </div>
                 </div>
             </div>
-            
-            <div class="foto">
-                <img src="../multimedia/trabajo_heladera.png" class="foto_galeria" alt="">
-                <div class="pie_foto">
-                    <p>"Ploteo Heladera"</p>     
+
+            <div data-aos="flip-left">
+                <div class="foto">
+                    <img class="foto_galeria3" alt="">
+                    <div class="pie_foto">
+                        <p>"Tarjetas personalizadas"</p>     
+                    </div>
                 </div>
-            </div>       
+            </div>
+
+            <div data-aos="flip-left">
+                <div class="foto">
+                    <img src="../multimedia/trabajo_heladera.png" class="foto_galeria" alt="">
+                    <div class="pie_foto">
+                        <p>"Ploteo Heladera"</p>     
+                    </div>
+                </div>       
+            </div>
         </section>
 
         <section class="seccion_contenedor_galeria">
-            <div class="foto">
-                <img src="../multimedia/trabajo_cartelera_5.png" class="foto_galeria"  alt="">
-                <div class="pie_foto">
-                <p>"Vidriera y Carteles"</p>     
+            
+            <div data-aos="flip-left"> 
+                <div class="foto">
+                    <img src="../multimedia/trabajo_cartelera_5.png" class="foto_galeria"  alt="">
+                    <div class="pie_foto">
+                        <p>"Vidriera y Carteles"</p>     
+                    </div>
                 </div>
             </div>
         
-            <div class="foto">
-                <img src="../multimedia/trabajo_cartelera_4.png" class="foto_galeria" alt="">
-                <div class="pie_foto">
-                <p>"Cartelera"</p>     
+            <div data-aos="flip-left">
+                <div class="foto">
+                    <img src="../multimedia/trabajo_cartelera_4.png" class="foto_galeria" alt="">
+                    <div class="pie_foto">
+                        <p>"Cartelera"</p>     
+                    </div>
                 </div>
             </div>
 
-            <div class="foto">
-                <img src="../multimedia/trabajo_cartelera.png" class="foto_galeria" alt="">
-                <div class="pie_foto">
-                <p>"Cartelera"</p>     
+            <div data-aos="flip-left">
+                <div class="foto">
+                    <img src="../multimedia/trabajo_cartelera.png" class="foto_galeria" alt="">
+                    <div class="pie_foto">
+                        <p>"Cartelera"</p>     
+                    </div>
                 </div>
             </div>
 
-            <div class="foto">
-                <img src="../multimedia/trabajo_cartelera_2.png" class="foto_galeria" alt="">
-                <div class="pie_foto">
-                <p>"Cartelera"</p>     
+            <div data-aos="flip-left">
+                <div class="foto">
+                    <img src="../multimedia/trabajo_cartelera_2.png" class="foto_galeria" alt="">
+                    <div class="pie_foto">
+                        <p>"Cartelera"</p>     
+                    </div>
                 </div>
             </div>       
  
@@ -150,4 +181,9 @@
         <marquee behavior="alternate" direction="right">Todos los derechos reservados por copyright</marquee>
     </footer>
             
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
     </body>
