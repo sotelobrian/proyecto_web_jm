@@ -2456,3 +2456,371 @@ marquee{
 
 }
 
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1201px) and (max-width:1599px) { 
+
+
+    header{
+        height: 100px;
+        height:300px;
+        width: auto;
+        background-color: white;
+    }
+    
+    .contenedor_imagenes{
+       position: relative;
+       overflow: hidden;
+       width: auto;
+       height: 300px;
+       background:white;
+    }
+    
+    .portada{
+        width: 100%;
+        height: 100%;
+        background-image: url(multimedia/globos_logo2.png);
+        background-size: cover;
+        background-position:center;
+    }    
+
+    nav{
+        background-color: white; /* luego ir cambiar el fondo a blanco  */
+        height: 40px;
+        width: 100%;
+    }
+    
+    nav ul{
+        float: right;
+        margin-right: 5px;  
+    }
+    
+    nav ul li{
+        display: inline-block;
+        line-height: 20px;
+        margin: 0 5px;
+    }
+    
+    nav ul li a{
+    
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #FF00ff;
+        padding: 10px 25px 10px 25px;     
+    
+    }
+    
+    li a:hover {
+        width: 20 px;
+        border-radius: 10px;
+        background: #0cb7f2;      
+        transform: .5s;
+    
+    }
+    
+    .checkbtn {
+        font-size: 20px;
+        color:#FF00ff;
+        float: right;
+        line-height: 20px;
+        margin-right: 10px;
+        margin-top: 5px;
+        cursor: pointer;
+        display:none
+    }
+    
+    #check {
+        display: none;
+    }  
+   
+    a{
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration:none;
+        float:left;
+    }
+
+    .contenedor_nosotros{ /* no tiene ningun uso por el momento por algo se puso height 0px  */
+        height: 45px;
+        width: 100%;
+        background-color:#e0e0e0;
+        margin-top: 40px;
+        margin-left:5px;
+    }
+    
+    .contenedor_nosotros span{
+        font-size: 25pt;
+        margin-right: 25px;
+        font-weight: bold;
+        position: relative;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;          
+    }
+
+    .main{
+        background:#e0e0e0;
+        width: 100%;
+        height: 100%;
+        /*height: calc(180vh - 10px);*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section {
+        background:#e0e0e0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contenedor_aside {
+        height: 100%;
+        width: 0%;
+    }
+
+    .articulo_1{  /* ¿contenedor de "quienes somos"? */
+        width: 100%;
+        height: 260px;
+        position: relative;
+        font-family: sans-serif;
+        background:#e0e0e0;
+     }
+     
+      .p_quienes_somos{ /* texto quienes somos */
+         width: 100%;
+         margin-bottom: 1%;
+         margin-left: 1px;
+         font-weight: normal;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         color: rgb(58,63,106);
+         font-size: 22px;
+         text-align: center;
+     }
+
+     .articulo_2{  
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background:#e0e0e0;
+        margin-left: 0px;
+    }
+    
+     .imagen_articulo_2{
+        height:220px;
+        width: auto;
+        border-radius: 10px;
+     }
+
+     .div_articulo_3_video{
+        width: 100%;
+        height: 300px;
+        background:white;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+     .video_articulo_3{
+        width: 100%;
+        height: 280px;
+        margin-left: 10px;
+     }
+
+     .articulo_4{
+        width: 100%;
+        height: 250px;
+        background-color:#e0e0e0;
+        border-radius: 20px;
+    }
+    
+    h1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: grey;
+        font-size: 30px;
+        text-align: center;
+        background-color:#e0e0e0;
+        border-radius: 10px;
+        height: 45px;
+        margin-top: 45px;
+        text-shadow: 5px 5px 5px white;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+    .seccion_contenedor_galeria{  
+        width: 100%;
+        height: 300px;
+        background-color:  #e0e0e0;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-around;
+    }
+    
+   .foto{
+    width: 22%;
+    height: 250px;
+    padding-left: 5px;
+    }
+
+    .foto :hover{
+    border: 2px solid grey;
+    transform: rotate(-3deg);
+    }
+
+    .pie_foto {
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 1px;
+        width: 240px;
+     }
+
+    .foto_galeria{
+        height: 240px;
+        width: 240px;
+        margin-top: 20px;
+        margin-left: 0px;
+        box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;   
+    }
+
+
+    .foto_galeria2{
+        background-image: url(multimedia/trabajo_auto_ploteado.png);
+        background-size: cover;
+        height: 240px;
+        width: 240px;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;   
+    }
+    
+    .foto_galeria3{
+        background-image: url(multimedia/trabajo_tarjetas.png);
+        background-size: cover;
+        height: 240px;
+        width: 240px;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;   
+    }
+    
+    .foto_galeria_pintureria{
+        background-image: url(multimedia/pintureria_coco1.jpg);
+        background-size: cover;
+        height: 240px;
+        width: 240px;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black ;      
+    }
+
+    .seccion_compra_segura{
+        width: 100%;
+        height: 220px;
+        background-color:#e0e0e0;
+        border-radius: 20px;
+    }
+    .imagen_compra_segura{
+        width: 90%;
+        height: 95%;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-left: 5%;
+    }
+
+    footer{
+        width: 100%;
+        height: 100px;
+        }
+        
+        .div_contenedor_footer{
+            width: 100%;
+            display: flex;        
+        }
+        
+        .contenedor_iconos_footer{
+        width: 30px;
+        margin-left: 5px;
+        margin-top: 7px;
+        text-align: center;
+        }
+        
+        .contenedor_iconos_footer a{
+        color: rgb(58,63,106);
+        margin-top: 8px;
+        font-size: 25px;
+        width: 50PX;
+        padding-bottom: 10px;
+        }
+        
+        .contenedor_p_local{
+            width: 80%;
+            height: 100%;
+            padding-top: 0px;
+        }
+        
+        .p_local {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: start;
+            padding-left: 20px;
+            padding-top: 19px;
+            font-size: 15px;
+        }
+        
+        .contenedor_redes_whattsapp{
+            height: 50px;
+            width: 70%;
+            margin-top: 60px;
+            display: flex;
+        }
+        
+        .redes{
+        width: 90%;
+        height: 50px; 
+        text-align: center;
+        text-shadow: 0 0 5px black;   
+        padding: 5px;
+        margin-bottom: 1px;
+        display: flex;
+        }
+        
+        .redes a{
+            padding-left: 5px;   
+            margin-top: 5px;
+            font-size: 40px;
+        }
+        
+        .whattsapp{
+            width: 10%;
+            height: 70px;
+            margin-left: 20px;
+            margin-top: 1px;
+        }
+        
+        .whattsapp a{
+            text-align: center;
+            margin-right: 5%;
+            margin-top: 10px;
+            font-size: 40px;
+        }
+
+}
+
+
+
+
+
+
+
+
