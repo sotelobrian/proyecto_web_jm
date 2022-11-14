@@ -452,8 +452,9 @@ label {
 	margin-top: 10px;
 	margin-left: 20px;
 	border-radius: 5px;
-	width: 700px;
+	width: 800px;
 	height: 310px;
+	box-shadow: 10px 2px 8px 0px black,0 5px 20px 0 black;
 }
 .datos_jm_soluciones {
 	height: 200px;
@@ -486,28 +487,29 @@ label {
 }
 .seccion_contenedor_galeria {
 	width: 100%;
-	height: 440px;
+	height: 460px;
 	background-color: $background-color_3;
-	border-radius: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 1px;
+	margin-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 .foto {
-	width: 400px;
-	height: 420px;
+	width: 380px;
+	height: 410px;
 	&:hover {
 		border: 2px solid grey;
-		transform: rotate(-3deg);
+		background-color:$background-color_3;
+		/*transform: rotate(-3deg);*/
+		transform: scale(1.2,1.2);
 	}
 }
 .foto_galeria {
 	height: 350px;
 	width: 250px;
 	margin-top: 20px;
-	margin-left: 100px;
+	margin-left: 80px;
 	box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 }
 .foto_galeria2 {
@@ -779,7 +781,8 @@ label {
 		display: flex;
 		&:hover {
 			border: 2px solid grey;
-			transform: rotate(-3deg);
+			transform: scale(1.2,1.2);
+			/*transform: rotate(-3deg);*/
 		}
 	}
 	.pie_foto {
@@ -797,7 +800,7 @@ label {
 		height: 130px;
 		width: 130px;
 		margin-top: 10px;
-		margin-left: 20px;
+		margin-left: 30px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
 	.foto_galeria {
@@ -805,8 +808,8 @@ label {
 		background-position: center;
 		height: 130px;
 		width: 130px;
-		margin-top: 10px;
-		margin-left: 20px;
+		margin-top: 5px;
+		margin-left: 30px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
 	.foto_galeria2 {
@@ -815,8 +818,8 @@ label {
 		background-size: cover;
 		height: 130px;
 		width: 130px;
-		margin-top: 10px;
-		margin-left: 20px;
+		margin-top: 5px;
+		margin-left: 30px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
 	.foto_galeria3 {
@@ -825,8 +828,8 @@ label {
 		background-size: cover;
 		height: 130px;
 		width: 130px;
-		margin-top: 10px;
-		margin-left: 20px;
+		margin-top: 5px;
+		margin-left: 30px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
 	.seccion_compra_segura {
@@ -1012,6 +1015,7 @@ label {
 		border-radius: 5px;
 		width: 95%;
 		height: 400px;
+		box-shadow: 10px 2px 8px 0px black,0 5px 20px 0 black;
 	}
 	h3 {
 		font-family: $font-family_2;
@@ -1241,10 +1245,12 @@ label {
 	.foto {
 		width: 100%;
 		height: 200px;
+		padding-left: 10px;
 		display: flex;
 		&:hover {
 			border: 2px solid grey;
-			transform: rotate(-3deg);
+			/*transform: rotate(-3deg);*/
+			transform: scale(1,1);
 		}
 	}
 	.pie_foto {
@@ -1268,7 +1274,7 @@ label {
 	.foto_galeria {
 		height: 190px;
 		width: 190px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -1278,7 +1284,7 @@ label {
 		background-size: cover;
 		height: 190px;
 		width: 190px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -1288,7 +1294,7 @@ label {
 		background-size: cover;
 		height: 190px;
 		width: 190px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -1669,10 +1675,12 @@ label {
 	.foto {
 		width: 100%;
 		height: 230px;
-		padding-left: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
 		&:hover {
 			border: 2px solid grey;
-			transform: rotate(-3deg);
+			/*transform: rotate(-3deg);*/
+			transform: scale(1.2,1.2);
 		}
 	}
 	.pie_foto {
@@ -1696,7 +1704,7 @@ label {
 	.foto_galeria {
 		height: 190px;
 		width: 190px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -1706,7 +1714,7 @@ label {
 		background-size: cover;
 		height: 190px;
 		width: 190px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -1716,7 +1724,7 @@ label {
 		background-size: cover;
 		height: 190px;
 		width: 190px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -2102,7 +2110,6 @@ label {
 		width: 100%;
 		height: 620px;
 		background-color: $background-color_3;
-		border-radius: 20px;
 		margin-top: 5px;
 		margin-bottom: 5px;
 		display: flex;
@@ -2111,11 +2118,13 @@ label {
 	}
 	.foto {
 		width: 100%;
-		height: 300px;
-		padding-left: 40px;
+		height: 295px;
+		padding-left: 10px;
+		padding-right: 10px;
 		&:hover {
 			border: 2px solid grey;
-			transform: rotate(-3deg);
+			/*transform: rotate(-3deg);*/
+			transform: scale3d(1.2,1.2);
 		}
 	}
 	.pie_foto {
@@ -2139,7 +2148,7 @@ label {
 	.foto_galeria {
 		height: 250px;
 		width: 250px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -2149,7 +2158,7 @@ label {
 		background-size: cover;
 		height: 250px;
 		width: 250px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -2159,7 +2168,7 @@ label {
 		background-size: cover;
 		height: 250px;
 		width: 250px;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-left: 20px;
 		box-shadow: 0 4px 8px 0 black,0 6px 20px 0 black;
 	}
@@ -2551,20 +2560,20 @@ label {
 		width: 100%;
 		height: 280px;
 		background-color: $background-color_3;
-		border-radius: 20px;
-		margin-top: 20px;
+		margin-top: 1px;
 		margin-bottom: 20px;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: space-evenly;
 	}
 	.foto {
 		width: 100%;
-		height: 280px;
+		height: 290px;
 		padding-left: 5px;
 		&:hover {
 			border: 2px solid grey;
-			transform: rotate(-3deg);
+			transform: scale(1.2,1.2);
+			/*transform: rotate(-3deg);*/
 		}
 	}
 	.pie_foto {
@@ -2935,26 +2944,26 @@ label {
 	}
 	.seccion_contenedor_galeria {
 		width: 100%;
-		height: 300px;
+		height: 330px;
 		background-color: $background-color_3;
-		border-radius: 20px;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 1px;
+		margin-bottom: 20px;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content:space-evenly;
 	}
 	.foto {
 		width: 100%;
-		height: 295px;
+		height: 330px;
 		padding-left: 5px;
 		&:hover {
 			border: 2px solid grey;
-			transform: rotate(-3deg);
+			transform: scale(1.2,1.2);
+			/*transform: rotate(-3deg);*/
 		}
 	}
 	.pie_foto {
-		margin-top: 10px;
+		margin-top: 5px;
 		text-align: center;
 		margin-left: 1px;
 		width: 240px;
@@ -3135,6 +3144,7 @@ label {
 		border-radius: 5px;
 		width: 90%;
 		height: 310px;
+		box-shadow: 10px 2px 8px 0px black,0 5px 20px 0 black;
 	}
 	.p_local_1 {
 		width: 100%;
