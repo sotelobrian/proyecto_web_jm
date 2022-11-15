@@ -925,7 +925,8 @@ label {
 	.seccion_carousel {
 		width: 100%;
 		height: auto;
-		margin-top: 0px;
+		margin-top: 10px;
+		background-color: #e0e0e0;
 	}
 	#demo {
 		width: 20;
@@ -940,13 +941,13 @@ label {
 		background-color: $background-color_4;
 		z-index: 1;
 		margin-left: 0%;
-		margin-top: 45px;
+		margin-top: 65px;
 		list-style: none;
 		height: 20px;
 	}
 	img {
 		width: 100%;
-		height: 190px;
+		height: 220px;
 	}
 	.seccion_contenedor_formulario_jm_soluciones_contactanos {
 		width: 100%;
