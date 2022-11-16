@@ -245,7 +245,7 @@ footer {
 .div_articulo_3_video {
 	width: 100%;
 	height: 500px;
-	background: white;
+	background:#e0e0e0;
 	border-radius: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -383,7 +383,7 @@ img {
 	width: 100%;
 	height: auto;
 	background-color: $background-color_3;
-	margin-top: 50px;
+	margin-top: 0px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -697,7 +697,7 @@ label {
 			position: relative;
 			font-family: $font-family_2;
 			cursor: pointer;
-			transition: all 300ms ease-in-out;
+			transition: all 100ms ease-in-out;
 		}
 	}
 	.articulo_1 {
@@ -941,7 +941,7 @@ label {
 		background-color: $background-color_4;
 		z-index: 1;
 		margin-left: 0%;
-		margin-top: 65px;
+		margin-top: 100px;
 		list-style: none;
 		height: 20px;
 	}
@@ -1628,7 +1628,7 @@ label {
 	.div_articulo_3_video {
 		width: 100%;
 		height: auto;
-		background: white;
+		background: $color_1;
 		border-radius: 10px;
 		margin-top: 10px;
 		margin-left: 0px;
@@ -2073,7 +2073,7 @@ label {
 	.div_articulo_3_video {
 		width: 100%;
 		height: auto;
-		background: white;
+		background: $color_1;
 		border-radius: 0px;
 		margin-top: 0px;
 		margin-left: 0px;
@@ -2318,7 +2318,7 @@ label {
 		width: 100%;
 		height: auto;
 		background-color: $background-color_3;
-		margin-top: 10px;
+		margin-top: 70px;
 		display: inline-block;
 	}
 	.contenedor_formulario {
@@ -2523,8 +2523,7 @@ label {
 	.div_articulo_3_video {
 		width: 100%;
 		height: 300px;
-		background: white;
-		border-radius: 20px;
+		background:$color_1;
 		margin-top: 10px;
 		margin-left: 0px;
 		display: flex;
@@ -2909,8 +2908,8 @@ label {
 	.div_articulo_3_video {
 		width: 100%;
 		height: auto;
-		background: white;
-		border-radius: 20px;
+		background:$color_1;
+		border-radius: 5px;
 		margin-top: 10px;
 		margin-left: 0px;
 		display: flex;
@@ -3005,16 +3004,16 @@ label {
 	}
 	.seccion_compra_segura {
 		width: 100%;
-		height: 140px;
+		height: 165px;
 		background-color: $background-color_3;
-		border-radius: 20px;
+		border-radius: 5px;
 	}
 	.imagen_compra_segura {
 		width: 60%;
 		height: 93%;
 		border-radius: 5px;
 		margin-top: 5px;
-		margin-left: 250px;
+		margin-left: 290px;
 	}
 	footer {
 		width: 100%;
