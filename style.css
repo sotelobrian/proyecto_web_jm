@@ -25,7 +25,7 @@
 
 body {
   font-family: Arial, Helvetica;
-  background: white;
+  background: #e0e0e0;
   margin: 0;
 }
 
@@ -181,7 +181,6 @@ footer {
 }
 .contenedor_nosotros span:nth-child(1) {
   color: rgb(0, 159, 226);
-  margin-left: 5px;
 }
 .contenedor_nosotros span:nth-child(2) {
   color: rgb(229, 0, 125);
@@ -2459,7 +2458,6 @@ label {
     width: 100%;
     background-color: #e0e0e0;
     margin-top: 40px;
-    margin-left: 5px;
   }
   .contenedor_nosotros span {
     font-size: 25pt;
@@ -2840,7 +2838,6 @@ label {
     width: 100%;
     background-color: #e0e0e0;
     margin-top: 40px;
-    margin-left: 5px;
   }
   .contenedor_nosotros span {
     font-size: 25pt;

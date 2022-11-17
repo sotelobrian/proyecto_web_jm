@@ -41,7 +41,7 @@ $background-color_4: transparent;
 }
 body {
 	font-family: $font-family_1;
-	background: white;
+	background:$color_1;
 	margin: 0;
 }
 header {
@@ -185,7 +185,6 @@ footer {
 		}
 		&:nth-child(1) {
 			color: $color_3;
-			margin-left: 5px;
 		}
 		&:nth-child(2) {
 			color: $color_4;
@@ -2462,7 +2461,6 @@ label {
 		width: 100%;
 		background-color: $background-color_3;
 		margin-top: 40px;
-		margin-left: 5px;
 		span {
 			font-size: 25pt;
 			margin-right: 25px;
@@ -2847,7 +2845,6 @@ label {
 		width: 100%;
 		background-color: $background-color_3;
 		margin-top: 40px;
-		margin-left: 5px;
 		span {
 			font-size: 25pt;
 			margin-right: 25px;
