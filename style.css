@@ -25,7 +25,8 @@
 
 body {
   font-family: Arial, Helvetica;
-  background: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background:$color_1;*/
   margin: 0;
 }
 
@@ -208,7 +209,8 @@ footer {
   height: 200px;
   position: relative;
   font-family: sans-serif;
-  background: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background: #e0e0e0;*/
 }
 
 .p_quienes_somos {
@@ -227,7 +229,8 @@ footer {
   height: auto;
   display: flex;
   justify-content: space-around;
-  background: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background: #e0e0e0;*/
 }
 
 .imagen_articulo_2 {
@@ -244,7 +247,8 @@ footer {
 .div_articulo_3_video {
   width: 100%;
   height: 500px;
-  background: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background:#e0e0e0;*/
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
@@ -258,7 +262,8 @@ footer {
 
 .articulo_4 {
   width: 100%;
-  background-color: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background-color: $background-color_3;*/
   border-radius: 20px;
 }
 
@@ -400,7 +405,8 @@ img {
 .seccion_contenedor_formulario_jm_soluciones_contactanos {
   width: 100%;
   height: auto;
-  background-color: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background-color: $background-color_3;*/
   margin-top: 0px;
   display: flex;
   justify-content: space-around;
@@ -519,7 +525,8 @@ label {
 .seccion_contenedor_galeria {
   width: 100%;
   height: 460px;
-  background-color: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background-color: $background-color_3;*/
   margin-top: 1px;
   margin-bottom: 20px;
   display: flex;
@@ -533,7 +540,8 @@ label {
 }
 .foto:hover {
   border: 2px solid grey;
-  background-color: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background-color:$background-color_3;*/
   /*transform: rotate(-3deg);*/
   transform: scale(1.2, 1.2);
 }
@@ -587,7 +595,8 @@ label {
 .seccion_compra_segura {
   width: 100%;
   height: auto;
-  background-color: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background-color: $background-color_3;*/
   margin-top: 5px;
   border-radius: 10px;
 }
@@ -596,12 +605,14 @@ label {
   width: 100%;
   height: auto;
   margin-top: 40px;
-  background-color: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background-color: $background-color_3;*/
 }
 
 .section_clientes {
   width: 100%;
-  background-color: #e0e0e0;
+  background-image: url(/multimedia/fondo_bodi.jpg);
+  /*background-color: $background-color_3;*/
   display: flex;
   justify-content: space-evenly;
 }
@@ -739,7 +750,7 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
   }
   .p_quienes_somos {
     width: 100%;
@@ -755,7 +766,7 @@ label {
     height: auto;
     width: 100%;
     display: inline-block;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -768,7 +779,7 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    background: white;
+    /*background: white;*/
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 0px;
@@ -959,7 +970,7 @@ label {
   .seccion_carousel {
     width: 100%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #e0e0e0;
   }
   #demo {
@@ -975,13 +986,13 @@ label {
     background-color: transparent;
     z-index: 1;
     margin-left: 0%;
-    margin-top: 100px;
+    margin-top: 130px;
     list-style: none;
     height: 20px;
   }
   img {
     width: 100%;
-    height: 250px;
+    height: 280px;
   }
   .seccion_contenedor_formulario_jm_soluciones_contactanos {
     width: 100%;
@@ -1193,7 +1204,7 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
   }
   .p_quienes_somos {
     width: 98%;
@@ -1211,7 +1222,7 @@ label {
     width: 100%;
     display: inline-block;
     justify-content: space-around;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -1223,7 +1234,7 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    background: white;
+    /*background: white;*/
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 0px;
@@ -1592,7 +1603,7 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
     margin-bottom: 10px;
   }
   .p_quienes_somos {
@@ -1627,7 +1638,7 @@ label {
     width: 100%;
     display: inline-block;
     justify-content: space-around;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -1640,7 +1651,7 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    background: #e0e0e0;
+    /*background: $color_1;*/
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 0px;
@@ -2042,7 +2053,7 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
   }
   .p_quienes_somos {
     width: 90%;
@@ -2061,7 +2072,7 @@ label {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
     margin-left: 0px;
     margin-top: 10px;
   }
@@ -2073,7 +2084,7 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    background: #e0e0e0;
+    /*background: $color_1;*/
     border-radius: 0px;
     margin-top: 0px;
     margin-left: 0px;
@@ -2490,7 +2501,7 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
   }
   .p_quienes_somos {
     width: 100%;
@@ -2507,7 +2518,7 @@ label {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -2518,7 +2529,7 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: 300px;
-    background: #e0e0e0;
+    /*background:$color_1;*/
     margin-top: 10px;
     margin-left: 0px;
     display: flex;
@@ -2870,7 +2881,7 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
   }
   .p_quienes_somos {
     width: 90%;
@@ -2887,7 +2898,7 @@ label {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background: #e0e0e0;
+    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -2898,7 +2909,7 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    background: #e0e0e0;
+    /*background:$color_1;*/
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 0px;
