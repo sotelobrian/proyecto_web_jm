@@ -307,7 +307,7 @@ footer {
   margin-bottom: 40px;
   font-size: 40px;
   letter-spacing: 50px;
-  text-shadow: 2px 0 5px white;
+  text-shadow: 2px 0 5px black;
 }
 .redes a {
   color: rgb(58, 63, 106);
@@ -374,27 +374,43 @@ marquee {
   margin-top: 0px;
 }
 
+/*.seccion_carousel {
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+}
+#demo {
+	height: auto;
+}
+.carousel-indicators {
+	background-color: $background-color_4;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+	list-style: none;
+	margin-bottom: 0px;
+}
+img {
+	width: 100%;
+	height: 500px;
+}*/
 .seccion_carousel {
   width: 100%;
   height: auto;
-  margin-top: 50px;
-}
-
-#demo {
-  height: auto;
+  margin-top: 60px;
 }
 
 .carousel-indicators {
   background-color: transparent;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   display: flex;
   justify-content: center;
   z-index: 1;
   list-style: none;
-  margin-bottom: 0px;
 }
 
 img {
@@ -596,8 +612,8 @@ label {
   width: 100%;
   height: auto;
   background-image: url(multimedia/fondo_bodi.jpg);
-  /*background-color: $background-color_3;*/
   margin-top: 5px;
+  margin-bottom: 10px;
   border-radius: 10px;
 }
 
@@ -882,7 +898,7 @@ label {
     height: 75px;
     background-color: #e0e0e0;
     border-radius: 5px;
-    /*margin-top: 5px;*/
+    margin-bottom: 5px;
   }
   .imagen_compra_segura {
     width: 95%;
@@ -1204,7 +1220,6 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    /*background: #e0e0e0;*/
   }
   .p_quienes_somos {
     width: 98%;
@@ -1222,7 +1237,6 @@ label {
     width: 100%;
     display: inline-block;
     justify-content: space-around;
-    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -1234,7 +1248,6 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    /*background: white;*/
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 0px;
@@ -1340,6 +1353,7 @@ label {
     background-color: #e0e0e0;
     border-radius: 5px;
     margin-top: 5px;
+    margin-bottom: 0px;
   }
   .imagen_compra_segura {
     width: 100%;
@@ -1603,7 +1617,6 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    /*background: #e0e0e0;*/
     margin-bottom: 10px;
   }
   .p_quienes_somos {
@@ -1638,7 +1651,6 @@ label {
     width: 100%;
     display: inline-block;
     justify-content: space-around;
-    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -1651,7 +1663,6 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    /*background: $color_1;*/
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 0px;
@@ -1758,6 +1769,7 @@ label {
     background-color: #e0e0e0;
     border-radius: 5px;
     margin-top: 5px;
+    margin-bottom: 0px;
   }
   .imagen_compra_segura {
     width: 99%;
@@ -1850,9 +1862,6 @@ label {
   .carousel-indicators {
     background-color: transparent;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -2072,7 +2081,6 @@ label {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /*background: #e0e0e0;*/
     margin-left: 0px;
     margin-top: 10px;
   }
@@ -2084,7 +2092,6 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    /*background: $color_1;*/
     border-radius: 0px;
     margin-top: 0px;
     margin-left: 0px;
@@ -2190,6 +2197,7 @@ label {
     background-color: #e0e0e0;
     border-radius: 20px;
     margin-top: 0px;
+    margin-bottom: 0px;
   }
   .imagen_compra_segura {
     width: 75%;
@@ -2329,7 +2337,7 @@ label {
     width: 100%;
     height: auto;
     background-color: #e0e0e0;
-    margin-top: 70px;
+    margin-top: 10px;
     display: inline-block;
   }
   .contenedor_formulario {
@@ -2518,7 +2526,6 @@ label {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -2529,7 +2536,6 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: 300px;
-    /*background:$color_1;*/
     margin-top: 10px;
     margin-left: 0px;
     display: flex;
@@ -2545,6 +2551,7 @@ label {
     height: auto;
     background-color: #e0e0e0;
     border-radius: 20px;
+    margin-bottom: 5px;
   }
   h1 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -2580,7 +2587,6 @@ label {
   .foto:hover {
     border: 2px solid grey;
     transform: scale(1.2, 1.2);
-    /*transform: rotate(-3deg);*/
   }
   .pie_foto {
     margin-top: 10px;
@@ -2627,6 +2633,7 @@ label {
     height: 150px;
     background-color: #e0e0e0;
     border-radius: 5px;
+    margin-bottom: 0px;
   }
   .imagen_compra_segura {
     width: 80%;
@@ -2881,7 +2888,6 @@ label {
     height: auto;
     position: relative;
     font-family: sans-serif;
-    /*background: #e0e0e0;*/
   }
   .p_quienes_somos {
     width: 90%;
@@ -2898,7 +2904,6 @@ label {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    /*background: #e0e0e0;*/
     margin-left: 0px;
   }
   .imagen_articulo_2 {
@@ -2909,7 +2914,6 @@ label {
   .div_articulo_3_video {
     width: 100%;
     height: auto;
-    /*background:$color_1;*/
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 0px;
@@ -3008,6 +3012,7 @@ label {
     height: 165px;
     background-color: #e0e0e0;
     border-radius: 5px;
+    margin-bottom: 0px;
   }
   .imagen_compra_segura {
     width: 60%;
@@ -3040,7 +3045,7 @@ label {
     padding-bottom: 10px;
   }
   .contenedor_p_local {
-    width: 45%;
+    width: 85%;
     margin-top: 20px;
   }
   .p_local {
@@ -3056,7 +3061,7 @@ label {
   }
   .contenedor_redes_whattsapp {
     height: auto;
-    width: 50%;
+    width: 100%;
     margin-top: 30px;
     display: flex;
   }
